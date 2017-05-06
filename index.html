@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile Blog</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">	
+	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<script src="js/jquery.js"></script>
+	<script src="_assets/js/index.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+
+	<style type="text/css">
+
+		.hiddenContent {
+			display: none;
+		}
+
+		body {
+      height: 100%;
+		}
+
+	</style>
+</head>
+<body>
+<div data-role="page" class="jqm-demos jqm-home">
+
+	<div data-role="header" class="jqm-header">
+		<h2>My Ipsum Blog</h2>
+		<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+		<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content jqm-content" id="content">
+
+		<h1>Overview</h1>
+
+		<p><strong>Lorem Ipsum is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced. Here, we'll looking at some of my favourite ipsum generators.</strong></p>
+
+	</div><!-- /content -->
+	    
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+				<li data-filtertext="demos homepage" data-icon="home"><a href="#home" class="contentUpdate" data-ajax="false">Overview</a></li>
+				
+				<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content">
+					<h3 class="ui-collapsible-heading">
+						<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+					    Bacon Ipsum<span class="ui-collapsible-heading-status">click to expand contents</span>
+						</a>
+					</h3>
+
+				<div class="ui-collapsible-content ui-body-inherit" aria-hidden="true">
+					<ul>
+						<li data-filtertext=""><a href="#1-1" class="contentUpdate">Mmm, Spicy Bacon</a></li>
+						<li data-filtertext=""><a href="#1-2" class="contentUpdate">Pure Bacon</a></li>
+					</ul>
+				</div>
+
+				</li>
+
+				<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content">
+					<h3 class="ui-collapsible-heading">
+						<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+					    Office Ipsum<span class="ui-collapsible-heading-status">click to expand contents</span>
+						</a>
+					</h3>
+
+				<div class="ui-collapsible-content ui-body-inherit" aria-hidden="true">
+					<ul>
+						<li data-filtertext=""><a href="#2-1" class="contentUpdate">Office Ipsum</a></li>
+						<li data-filtertext=""><a href="#2-2" class="contentUpdate">Client Ipsum</a></li>
+					</ul>
+				</div>
+
+				<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content">
+					<h3 class="ui-collapsible-heading">
+						<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+					    Pommy Ipsum<span class="ui-collapsible-heading-status">click to expand contents</span>
+						</a>
+					</h3>
+
+				<div class="ui-collapsible-content ui-body-inherit" aria-hidden="true">
+					<ul>
+						<li data-filtertext=""><a href="#2-1" class="contentUpdate">Pommy Ipsum</a></li>
+					</ul>
+				</div>
+
+				<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content">
+					<h3 class="ui-collapsible-heading">
+						<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+					    Hipsum<span class="ui-collapsible-heading-status">click to expand contents</span>
+						</a>
+					</h3>
+
+				<div class="ui-collapsible-content ui-body-inherit" aria-hidden="true">
+					<ul>
+						<li data-filtertext=""><a href="#4-1" class="contentUpdate">Hipster</a></li>
+						<li data-filtertext=""><a href="#4-2" class="contentUpdate">Hipster with Latin</a></li>
+					</ul>
+				</div>
+
+				<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content">
+					<h3 class="ui-collapsible-heading">
+						<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+					    Fillerama<span class="ui-collapsible-heading-status">click to expand contents</span>
+						</a>
+					</h3>
+
+				<div class="ui-collapsible-content ui-body-inherit" aria-hidden="true">
+					<ul>
+						<li data-filtertext=""><a href="#5-1" class="contentUpdate">Futurama</a></li>
+						<li data-filtertext=""><a href="#5-2" class="contentUpdate">Star Wars</a></li>
+						<li data-filtertext=""><a href="#5-3" class="contentUpdate">Monty Python</a></li>
+						<li data-filtertext=""><a href="#5-4" class="contentUpdate">The Simpsons</a></li>
+					</ul>
+				</div>
+
+				</li>
+
+
+
+		     </ul>
+
+		</div><!-- /panel -->
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>This blog is created with jQuery Mobile, a touch-optimized HTML5 UI framework designed to make responsive web sites and apps</p>
+	</div><!-- /footer -->
+
+
+
+</div><!-- /page -->
+
+<div class="hiddenContent home">
+
+		<h1>Overview</h1>
+
+		<p><strong>Lorem Ipsum is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced. Here, we'll looking at some of my favourite ipsum generators.</strong></p>
+
+		<p>This is some standard ipsum</p>
+
+		<p>Lorem ipsum dolor sit amet, primis latine eam no, est ex nisl munere veritus, clita molestiae eu sit. Novum cetero menandri ei mea, vel ne errem placerat, ponderum conceptam in cum. Modus ullamcorper id vel. Has ubique philosophia ad, no impetus ocurreret vim. Te pri senserit principes prodesset, et quot apeirian sententiae per. Eos utamur adipisci ex, vidisse deseruisse ut eum, viderer urbanitas cum ne. Et quaestio salutandi patrioque sea, ei has fabulas omnesque, eam ne harum salutatus reformidans. Et ludus maluisset eam. Elit clita propriae ex vix. Errem dolore timeam ut vix. Semper option disputationi et usu</p>
+
+</div>
+
+<div class="hiddenContent 1-1">
+
+		<h1>Mmm, Spicy Bacon</h1>
+
+		<p><strong>Turducken ribeye tri-tip shankle. Cow enim mollit magna meatball, aliquip ribeye. Andouille adipisicing exercitation proident, sint minim consequat elit tempor chicken. Dolore esse leberkas cow voluptate cupim venison duis.</strong></p>
+
+		<p>Short loin fugiat ham bacon meatball nisi laborum cillum frankfurter pig. Salami ut corned beef, occaecat minim qui eiusmod laborum tempor. Non irure tempor do, exercitation t-bone jowl nostrud nisi. Leberkas shankle elit exercitation laboris biltong fugiat prosciutto, ground round ea. Picanha filet mignon chicken, meatball pork anim tri-tip pig in. Pork chop meatloaf culpa occaecat ex. Ribeye nulla alcatra cillum porchetta nostrud.</p>
+
+		<p>Pork loin pastrami filet mignon shankle commodo pariatur. Pancetta minim picanha biltong tongue salami. Cupidatat alcatra sausage pork belly lorem. Jerky tempor aute, landjaeger tongue beef ribs minim laborum. Pork loin est hamburger brisket, sunt ground round prosciutto in tenderloin nulla ad ham hock sirloin beef aute. Pork loin exercitation bacon ham hock, lorem ullamco cupidatat excepteur drumstick tri-tip rump cillum in boudin kevin.</p>
+
+</div>
+
+<div class="hiddenContent 1-2">
+
+		<h1>Pure Bacon</h1>
+
+		<p><strong>Spare ribs tenderloin kielbasa drumstick cow burgdoggen flank chicken picanha pancetta fatback meatball prosciutto boudin sausage. Meatloaf short loin shank.</strong></p>
+
+		<p>Andouille landjaeger fatback chicken t-bone short loin ground round rump bacon pancetta pork belly strip steak. Shoulder kielbasa beef andouille salami hamburger ribeye chicken tri-tip cow shank picanha drumstick tail. Jerky beef cupim boudin tail, brisket meatball porchetta pork chop venison ribeye shankle landjaeger pig chicken. Boudin beef shank, tri-tip kevin cow biltong ball tip. Ribeye pork belly turkey pork tongue tail. Biltong hamburger rump pancetta picanha.</p>
+
+		<p>Ham boudin filet mignon rump cow turducken biltong bacon salami. Ham venison shank, bacon tri-tip pork belly ribeye pork loin brisket tongue strip steak sausage alcatra turducken boudin. Meatball brisket alcatra tenderloin spare ribs pastrami. Turducken pork belly meatball tail. Boudin beef ribs sirloin frankfurter corned beef biltong.</p>
+
+</div>
+
+<div class="hiddenContent 2-1">
+
+		<h1>Office Ipsum</h1>
+
+		<p><strong>One-sheet even dead cats bounce. Get buy-in helicopter view moving the goalposts i don't want to drain the whole swamp, i just want to shoot some alligators quarterly sales are at an all-time low out of the loop, the last person we talked to said this would be ready. Time to open the kimono horsehead offer, but helicopter view killing it bench mark. Please use "solutionise" instead of solution ideas! :)</strong></p>
+
+		<p>Synergize productive mindfulness touch base, but hit the ground running, yet punter data-point, or drink from the firehose. Cannibalize collaboration through advanced technlogy cloud strategy we need to leverage our synergies, yet prairie dogging, but get all your ducks in a row. Great plan! let me diarize this, and we can synchronise ourselves at a later timepoint customer centric beef up, but push back this vendor is incompetent , obviously.</p>
+
+		<p>Put a record on and see who dances pulling teeth, but vertical integration i also believe it's important for every member to be involved and invested in our company and this is one way to do so for reach out put your feelers out, but back of the net. Prairie dogging helicopter view, yet due diligence, but pushback. Three-martini lunch we need more paper move the needle, nor we've got to manage that low hanging fruit.</p>
+
+</div>
+
+<div class="hiddenContent 2-2">
+
+		<h1>Client Ipsum</h1>
+
+		<p><strong>The website doesn't have the theme i was going for can it be more retro is this the best we can do, for jazz it up a little. I really like the colour but can you change it this is just a 5 minutes job, for low resolution? It looks ok on my screen it looks a bit empty, try to make everything bigger. I have printed it out, but the animated gif is not moving. Do less with more concept is bang on, but can we look at a better execution, but I like it</strong></p>
+
+		<p>Just Photoshop out the dog, add a baby, and make the curtains blue, or can you make it look like this clipart i found the target audience is makes and famles aged zero and up, but remember, everything is the same or better. The target audience is makes and famles aged zero and up. Use a kpop logo that's not a kpop logo! ugh thats not what i saw in my head at all for mmm, exactly like that, but different other agencies charge much lesser, so other agencies charge much lesser, it's great, can you add a beard though . Other agencies charge much lesser needs to be sleeker, nor it looks a bit empty, try to make everything bigger.</p>
+
+		<p>That's great, but can you make it work for ie 2 please we need more images of groups of people having non-specific types of fun, or make it original I like it, but can the snow look a little warmer, but make it look like Apple, so im not sure, try something else. We are a startup. We exceed the clients' expectations that's great, but can you make it work for ie 2 please yet you might wanna give it another shot use a kpop logo that's not a kpop logo! ugh can you pimp this powerpoint, need more geometry patterns. I love it, but can you invert all colors? can you make pink a little more pinkish could you do an actual logo instead of a font. Can you make the font bigger? I know somebody who can do this for a reasonable cost.</p>
+
+</div>
+
+<div class="hiddenContent 3-1">
+
+		<h1>Pommy Ipsum</h1>
+
+		<p><strong>Bloke bog off darling loo don't get your knickers in a twist cup of tea what a load of cobblers tally-ho got a lot of brass, supper working class upper class one would be honoured to bugger yorkshire pudding the chippy. Ear hole goggledegook bread and butter pudding easy peasy gosh numpty atrocious, god save the queen is she 'avin a laugh Sonic Screwdriver bobby eton mess.</strong></p>
+
+		<p>Pillock come hither a comely wench The Doctor red telephone box what a load of guff bit of alright, loo throw a spanner in the works one feels that flog a dead horse chuffed put me soaps back on, scouser full English breakast the lakes up at the crack of dawn crisps. Up at the crack of dawn bit of alright fish and chips anorak and absolute sling one's hook bull dog Weeping Angels stiff upper lip, ridiculous stew and dumps chav conkers tallywhacker blummin' Prince Charles clock round the earhole collywobbles we'll be 'avin less of that, ask your mother if picalilly is she 'avin a laugh stupendous flog ey up a fiver River Song. </p>
+
+		<p>Plum pudding driving a mini in the jacksy god save the queen well fit every fortnight chin up half-inch it chuffed driving a mini, bangers and mash not some sort of dosshouse a tad cottage pie pork scratchings clotted cream complete mare. A cuppa who brought loaf big light tosser anorak cup of tea, slappers off with her head nonsense numpty lad flog, mush ey up duck for sooth bowler hat. One would be honoured to oo ecky thump every fortnight, got his end away. Completely starkers see a man about a dog terribly Doctor Who crisps pennyboy big light, cotton on devonshire cream tea hadn't done it in donkey's years alright duck ey up chuck daft cow, bent as a nine bob note blimey scones morris dancers and we all like figgy pudding. </p>
+
+</div>
+
+<div class="hiddenContent 4-1">
+
+		<h1>Hipster</h1>
+
+		<p><strong>Hashtag quinoa poutine pabst put a bird on it everyday carry. Tilde kombucha slow-carb, woke selvage vexillologist you probably haven't heard of them pitchfork tacos iceland locavore.</strong></p>
+
+		<p>Forage edison bulb pok pok hashtag, succulents narwhal jianbing +1 echo park woke snackwave. Lyft chillwave health goth chartreuse, plaid artisan master cleanse wayfarers tbh hoodie fixie typewriter photo booth meggings. Chartreuse edison bulb pug chia hot chicken leggings schlitz, narwhal brunch vaporware. Hell of helvetica literally, four dollar toast hammock slow-carb vape. Meh wayfarers cronut mustache, marfa chicharrones street art raclette kitsch VHS vice gastropub pop-up.</p>
+
+		<p>Taxidermy cronut brunch, offal squid kombucha roof party. Literally flexitarian VHS hell of, viral normcore poutine blog. Yr photo booth gentrify paleo retro. Four dollar toast craft beer succulents next level, enamel pin vape celiac activated charcoal pour-over tilde tattooed fashion axe fap pop-up dreamcatcher. Food truck whatever selvage locavore af semiotics.</p>
+
+</div>
+
+<div class="hiddenContent 4-2">
+
+		<h1>Hipster with Latin</h1>
+
+		<p><strong>Reprehenderit chia crucifix chambray, health goth jean shorts jianbing nesciunt. Air plant ex mlkshk typewriter chambray. Chicharrones twee aliqua, veniam kale chips consectetur cred umami tousled ea. Edison bulb irure man bun ugh excepteur gentrify. </strong></p>
+
+		<p>Blue bottle bespoke squid, kogi exercitation messenger bag ethical portland meditation air plant knausgaard subway tile duis. Eiusmod la croix humblebrag PBRB 3 wolf moon. Everyday carry art party iceland, waistcoat raw denim twee street art slow-carb ad fashion axe pour-over before they sold out. </p>
+
+		<p>Lomo ut VHS sustainable try-hard, iPhone skateboard ea listicle ennui tattooed. Raclette chia portland, paleo YOLO ut sed consequat cliche polaroid fanny pack single-origin coffee. Fashion axe vape synth tbh gentrify, raclette leggings sapiente pop-up. XOXO bicycle rights heirloom, chicharrones food truck ennui chia mixtape etsy succulents.</p>
+
+</div>
+
+<div class="hiddenContent 5-1">
+
+		<h1>Futurama</h1>
+
+		<p><strong>The key to victory is discipline, and that means a well made bed. You will practice until you can make your bed in your sleep. I feel like I was mauled by Jesus. Hello Morbo, how's the family? So I really am important? How I feel when I'm drunk is correct?</strong></p>
+
+		<p>Bite my shiny metal ass. Can we have Bender Burgers again? Calculon is gonna kill us and it's all everybody else's fault! Fry, we have a crate to deliver. Soon enough. Uh, is the puppy mechanical in any way? Who said that? SURE you can die! You want to die?! Bender, you risked your life to save me!</p>
+
+		<p>Oh, you're a dollar naughtier than most. They're like sex, except I'm having them! It's okay, Bender. I like cooking too. Oh God, what have I done? And when we woke up, we had these bodies. Bender, being God isn't easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket. Large bet on myself in round one. Oh, I think we should just stay friends. Shut up and get to the point! We're rescuing ya.</p>
+
+</div>
+
+<div class="hiddenContent 5-2">
+
+		<h1>Star Wars</h1>
+
+		<p><strong>What!? You don't believe in the Force, do you? In my experience, there is no such thing as luck. I have traced the Rebel spies to her. Now she is my only link to finding their secret base. I call it luck.</strong></p>
+
+		<p>Oh God, my uncle. How am I ever gonna explain this? Look, I ain't in this for your revolution, and I'm not in it for you, Princess. I expect to be well paid. I'm in it for the money. He is here. I have traced the Rebel spies to her. Now she is my only link to finding their secret base. Hey, Luke! May the Force be with you. You are a part of the Rebel Alliance and a traitor! Take her away! You are a part of the Rebel Alliance and a traitor! Take her away! I find your lack of faith disturbing.</p>
+
+		<p>I'm surprised you had the courage to take the responsibility yourself. You don't believe in the Force, do you? Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going. Escape is not his plan. I must face him, alone. The more you tighten your grip, Tarkin, the more star systems will slip through your fingers. A tremor in the Force. The last time I felt it was in the presence of my old master. No! Alderaan is peaceful. We have no weapons. You can't possibly… Escape is not his plan. I must face him, alone.</p>
+
+</div>
+
+<div class="hiddenContent 5-3">
+
+		<h1>Monty Python</h1>
+
+		<p><strong>Oh! Come and see the violence inherent in the system! Help, help, I'm being repressed! I have to push the pram a lot. Why do you think that she is a witch? Did you dress her up like this?</strong></p>
+
+		<p>Who's that then? We shall say 'Ni' again to you, if you do not appease us. We shall say 'Ni' again to you, if you do not appease us. Found them? In Mercia?! The coconut's tropical! And the hat. She's a witch! The Knights Who Say Ni demand a sacrifice! Look, my liege! Burn her! No, no, no! Yes, yes. A bit. But she's got a wart. Burn her anyway!</p>
+
+		<p>Listen. Strange women lying in ponds distributing swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony. The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king. Well, I got better. The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king.</p>
+
+</div>
+
+<div class="hiddenContent 5-4">
+
+		<h1>The Simpsons</h1>
+
+		<p><strong>Kids, kids. I'm not going to die. That only happens to bad people. D'oh. …And the fluffy kitten played with that ball of string all through the night. On a lighter note, a Kwik-E-Mart clerk was brutally murdered last night.</strong></p>
+
+		<p>We started out like Romeo and Juliet, but it ended up in tragedy. I'm a Spalding Gray in a Rick Dees world. Attempted murder? Now honestly, what is that? Do they give a Nobel Prize for attempted chemistry? Please do not offer my god a peanut. Kids, kids. I'm not going to die. That only happens to bad people. They only come out in the night. Or in this case, the day. Your questions have become more redundant and annoying than the last three "Highlander" movies.</p>
+
+		<p>I'm normally not a praying man, but if you're up there, please save me, Superman. Kids, you tried your best and you failed miserably. The lesson is, never try. He didn't give you gay, did he? Did he?! Me fail English? That's unpossible. Beer. Now there's a temporary solution. Oh, a *sarcasm* detector. Oh, that's a *really* useful invention! I don't like being outdoors, Smithers. For one thing, there's too many fat children. Donuts. Is there anything they can't do?</p>
+
+</div>
+
+
+<script type="text/javascript">
+
+	function updateContent (hash) {
+
+		var newClass = hash.substring(1);
+
+		var newContent = $("."+newClass).html();
+
+		$("#content").html(newContent);
+
+	}
+
+	if (window.location.hash) {
+
+	updateContent(window.location.hash);
+
+	}
+
+	$(".contentUpdate").click(function() {
+
+		updateContent($(this).attr("href"));
+
+	});
+
+
+
+</script>
+
+</body>
+</html>
